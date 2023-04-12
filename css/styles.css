@@ -293,7 +293,6 @@ PORTFOLIO
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 .project-card{
   background: var(--main-bgc);
