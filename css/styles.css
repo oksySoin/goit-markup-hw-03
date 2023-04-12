@@ -44,7 +44,7 @@ button{
   list-style: none;
 }
 .link{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .visually-hidden {
@@ -109,8 +109,7 @@ STUDiO
 }
 .menu{
   display: flex;
-  column-gap: 40px;
-  justify-content: space-between;
+  gap: 40px;
 }
 .menu-link,.contact-item,.logo{
   padding-top: 24px;
@@ -128,7 +127,7 @@ STUDiO
 }
 .contact{
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .contact-item{  
   color: var(--color-slate);
@@ -146,9 +145,11 @@ STUDiO
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
 }
 .hero{
-  background: var(--main-color-navy-blue);  
+  background: var(--main-color-navy-blue); 
+  padding: 188px 0;
 }
 .hero-box{
   display: flex;
@@ -156,7 +157,6 @@ STUDiO
   row-gap: 48px;
   align-items: center;
   justify-content: center;
-  padding: 188px 328px;
 }
 .btn-hero{
   font-family: inherit;
@@ -168,8 +168,11 @@ STUDiO
   color: var(--main-bgc);
   background:var(--primary-brand-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px; 
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
 }
 .btn-hero:hover,
 .btn-hero:focus{
@@ -205,14 +208,17 @@ STUDiO
 }
 .benefits-list{
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .benefits-list-item{
   flex-basis: calc((100% - 72px) / 4);
 }
+.what-we-do{
+  padding-bottom: 120px;
+}
 .gallery{
   display: flex;
-  column-gap: 24px;  
+  gap: 24px;  
   padding-bottom: 120px;
 }
 .gallery-item{
@@ -223,41 +229,43 @@ STUDiO
 }
 .cards-list{
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .team-card{
   background: var(--main-bgc);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
 }
 .team-member{
   padding:32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* footer */
 .footer{
   background: var(--main-color-navy-blue);
+  padding: 100px 0;
 }
 .footer-msg {
   color: var(--color-cloud);
-  width: 264px;
-  padding-top: 16px;  
+  width: 264px;  
 }
-.footer-box{
-  padding-top:100px ;
-  padding-bottom: 100px;
+.logo-footer{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /*****
 PORTFOLIO
 *****/
+.section-portfolio{
+  padding: 96px 0 120px;
+}
 .filter{
   display: flex;
   justify-content: center;
-  column-gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 .filter-btn{
   font-family: inherit;
@@ -278,6 +286,7 @@ PORTFOLIO
   color: var(--main-bgc);
   background: var(--pressed-state-ocean);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid transparent;
 }
 
 .projects-box {
