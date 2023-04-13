@@ -218,8 +218,7 @@ STUDiO
 }
 .gallery{
   display: flex;
-  gap: 24px;  
-  padding-bottom: 120px;
+  gap: 24px;
 }
 .gallery-item{
   flex-basis: calc((100% - 48px) / 3);
@@ -252,7 +251,8 @@ STUDiO
 }
 .logo-footer{
   display: inline-block;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
+  padding: 0;
 }
 
 /*****
